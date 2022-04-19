@@ -56,7 +56,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         getWeather("http://api.openweathermap.org/data/2.5/weather?q=London&appid=76b4f5fc92f432d9fc68dffc349aa1cf&units=metric");
+<<<<<<< HEAD
         Toast.makeText(this,"Welcome to the project of Aram, 201579",Toast.LENGTH_SHORT).show();
+=======
+        Toast.makeText(this,"Welcome to the project of Aram, 201572",Toast.LENGTH_SHORT).show();
+>>>>>>> af1f984 (Initial commit)
 
 //        final MediaPlayer mp = MediaPlayer.create(this, R.raw.click);
 //        mp.start();
@@ -86,7 +90,11 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
                 Log.e("Receive Error", e.toString());
             }
+<<<<<<< HEAD
         }, error -> Log.d("Eisa", "Error Retrieving URL"));
+=======
+        }, error -> Log.d("Aram", "Error Retrieving URL"));
+>>>>>>> af1f984 (Initial commit)
         RequestQueue queue = Volley.newRequestQueue(this);
         queue.add(jsonObj);
     }
